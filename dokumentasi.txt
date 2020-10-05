@@ -296,3 +296,27 @@ composer require laravel/ui:^2.4 atau composer require laravel/ui --dev (latest 
 php artisan ui vue --auth
 
 jika sudah di install maka akan muncul ketika di php artisan dengan nama ui
+php artisan help ui
+
+jika dilihat disana ada pilihan ada bootstrap vue atau react lalu pilih yang mau digunakan
+ketikan php artisan ui bootstrap --auth
+jika sudah berhasil : Bootstrap scaffolding installed successfully.
+Please run "npm install && npm run dev" to compile your fresh scaffolding. (dianggap telah memiliki
+atau menginstall npm )
+
+install node js terlebih dahulu jika belum install
+jalankan command npm install terlebih dahulu
+lalu npm run dev
+
+dari view nya bisa dilihat bertambah file2 yang bertambah tentunya merupakan bagian ari auth yg diinstall
+seperti untuk login registrasi lupa password dll
+
+pada php artisan serve maka kaan ada fitur login
+jika dibuka tampilannya masih jelek karena belum menginstall npm run dev command ini bisa dilihat di package.json
+
+jika tidak jalan maka install npm run dev pada debugger, caranya masuk dulu ke file package.json nya arahkan kursor
+ke atas script ada tombol debug lalu klik npm run dev atau yg dev nya sana setelah itu debug akan mengintall atau
+menjalankan command npm run dev
+
+jika sudah selesai tampilan login akan berbeda karena sudah memiliki  bootstrap
+tambahkan database di env, running migration maka register dan login sudah bisa dijalankan
